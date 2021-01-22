@@ -23,10 +23,6 @@ public class ActitimeAssignment {
 		  Thread.sleep(3000);
 		  driver.manage().deleteAllCookies();
 		  driver.close();
-		
-		  
-		  
-
 	}
 
 }

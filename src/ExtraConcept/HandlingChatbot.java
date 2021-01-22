@@ -22,7 +22,8 @@ public class HandlingChatbot {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("corover-disha-icon")));
 		driver.findElement(By.id("corover-disha-icon")).click();
 		driver.switchTo().frame("corover-chat-frame");
-		
+		driver.findElement(By.id("search")).sendKeys("go to india");
+		driver.switchTo().parentFrame();
 		
 	}
 }

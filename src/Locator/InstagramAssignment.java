@@ -16,7 +16,7 @@ public class InstagramAssignment {
 		driver.findElement(By.name("username")).sendKeys("jhilipatel");
 		driver.findElement(By.name("password")).sendKeys("Qspiders");
 		Thread.sleep(3000);
-		driver.close();
+		//driver.close();
 
 	}
 

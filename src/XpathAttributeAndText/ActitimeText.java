@@ -19,7 +19,7 @@ public class ActitimeText {
 		driver.findElement(By.xpath("//a[.='Forgot your password?']")).click();
 		Thread.sleep(3000);
 		driver.navigate().back();
-		WebElement inc= driver.findElement(By.xpath("//a[.='actiTIME Inc."));
+		WebElement inc= driver.findElement(By.xpath("//a[.='actiTIME Inc.']"));
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click()",inc);
 		

@@ -25,9 +25,10 @@ public class ChildPopupWindowHandle {
 		System.out.println(allwindows.size());  //4
 		
 		//How to switch one browser to another
-		
+		System.out.println("*******************************");
 		ArrayList<String> al=new ArrayList<>();
 		al.addAll(allwindows);
+		System.out.println(allwindows);
 		System.out.println(allwindows.size());   //4
 		
 		driver.switchTo().window(al.get(1));

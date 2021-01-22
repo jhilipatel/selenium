@@ -37,6 +37,13 @@ public class ActitimeChildBrowserpopupAssignment {
 		  driver.findElement(By.id("company")).sendKeys("Htc");
 		  driver.close();
 		  driver.switchTo().window(al.get(0));
+		  System.out.println(driver.getTitle());
+			
+			driver.findElement(By.id("username")).sendKeys("admin");
+			driver.findElement(By.name("pwd")).sendKeys("manager");
+			driver.findElement(By.xpath("//div[.='Login ']")).click();
+			driver.findElement(By.xpath("//a[.='Logout']")).click();
+			driver.close();
 		  
 	}
 }

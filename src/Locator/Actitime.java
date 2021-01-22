@@ -12,14 +12,19 @@ public class Actitime {
 		
 		
 		  System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-		  WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
-		  driver.get("https://demo.actitime.com/login.do"); Thread.sleep(1000);
+		  WebDriver driver = new ChromeDriver(); 
+		  driver.manage().window().maximize();
+		  driver.get("https://demo.actitime.com/login.do"); 
+		  Thread.sleep(1000);
 		  driver.findElement(By.name("username")).sendKeys("Jhili");
-		  driver.findElement(By.name("pwd")).sendKeys("Qspiders"); Thread.sleep(3000);
-		  driver.findElement(By.name("username")).clear(); Thread.sleep(3000);
+		  driver.findElement(By.name("pwd")).sendKeys("Qspiders"); 
+		  Thread.sleep(3000);
+		  driver.findElement(By.name("username")).clear();
+		  Thread.sleep(3000);
 		  driver.findElement(By.id("keepLoggedInCheckBox")).click();
 		  Thread.sleep(3000); driver.findElement(By.id("loginButton")).click();
-		  Thread.sleep(3000); driver.close();
+		  Thread.sleep(3000); 
+		  driver.close();
 		 
 		
 		/*

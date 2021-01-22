@@ -19,6 +19,7 @@ public class NaukariChieldBrowserPopupAssignmentQue2Part1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.get("https://www.naukri.com/");
+		
 		Set<String> allbrowser=driver.getWindowHandles();
 		ArrayList<String> al=new ArrayList<>();
 		al.addAll(allbrowser);                                        //after this line give for loop foe checking index

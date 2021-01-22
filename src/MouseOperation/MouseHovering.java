@@ -14,6 +14,7 @@ public class MouseHovering {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.myntra.com/");
+		
 		WebElement offers = driver.findElement(By.xpath("//a[.='Offers']"));
 		Actions act=new Actions(driver);
 		act.moveToElement(offers).perform();

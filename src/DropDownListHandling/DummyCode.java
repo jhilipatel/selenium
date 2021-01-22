@@ -11,6 +11,8 @@ public class DummyCode {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("file:///C:/Users/soura/Desktop/Html%20Code/DropdownlistHtmlcode.html");
+		
+		
 
 	}
 
